@@ -1,136 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Youssef Ennagui</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #f6f8fa;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        }
-        h1, h2, h3 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            color: #1a2a42;
-        }
-        h1 {
-            text-align: center;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .skills-list, .interests-list {
-            list-style: none;
-            padding: 0;
-        }
-        .skills-list li, .interests-list li {
-            background-color: #eef2f7;
-            border-radius: 5px;
-            padding: 8px 12px;
-            margin-bottom: 8px;
-            display: inline-block;
-            margin-right: 8px;
-            font-size: 0.9em;
-        }
-        .contact a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        .contact a:hover {
-            text-decoration: underline;
-        }
-        .project, .education-item {
-            margin-bottom: 20px;
-        }
-        strong {
-            color: #1a2a42;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Youssef Ennagui</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Youssef Ennagui</h1>
-            <p style="text-align: center;">Étudiant en Sciences Mathématiques et Informatique</p>
-        </header>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Youssef<span>Dev</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="section">
-            <h2>À propos de moi</h2>
-            <p>
-                Passionné par le développement web et les nouvelles technologies, je suis actuellement étudiant à la FSDM-Fès. Avec des compétences solides en programmation et frameworks modernes, je suis motivé à approfondir mes connaissances en master et à contribuer à des projets innovants.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Compétences Techniques</h2>
-            <h3>Langages de programmation</h3>
-            <ul class="skills-list">
-                <li>C</li><li>C++</li><li>Java</li><li>Python</li><li>PHP</li><li>JavaScript</li>
-            </ul>
-            <h3>Frameworks & Bibliothèques</h3>
-            <ul class="skills-list">
-                <li>React</li><li>Laravel</li><li>Bootstrap</li>
-            </ul>
-            <h3>Bases de données</h3>
-            <ul class="skills-list">
-                <li>MySQL</li><li>SQL Server</li>
-            </ul>
-            <h3>Outils</h3>
-            <ul class="skills-list">
-                <li>Git</li><li>GitHub</li><li>LaTeX</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Projets</h2>
-            <div class="project">
-                <h3>Plateforme web d'apprentissage en ligne (Projet de fin d'études)</h3>
-                <p><strong>Description :</strong> Conception et réalisation d'une plateforme d'e-learning pour la gestion des cours, le suivi des étudiants et la communication interactive.</p>
-                <p><strong>Technologies :</strong> React, Laravel, MySQL.</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Formation</h2>
-            <div class="education-item">
-                <strong>Licence en Sciences - SMI</strong> | Faculté des Sciences Dhar El Mehraz (FSDM), Fès (2021 - 2025)
-            </div>
-            <div class="education-item">
-                <strong>DEUG en Sciences Mathématiques et Informatique</strong> | Faculté des Sciences Dhar El Mehraz, Fès (2021 - 2024)
-            </div>
-            <div class="education-item">
-                <strong>Baccalauréat en Sciences Mathématiques A</strong> | Lycée Al Wahda, Taounate (2020 - 2021)
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Centres d'intérêt</h2>
-            <ul class="interests-list">
-                <li>Intelligence Artificielle & Machine Learning</li>
-                <li>Cybersécurité</li>
-                <li>Développement Web & Mobile</li>
-                <li>Nouvelles technologies & Innovation</li>
-            </ul>
-        </div>
-
-        <div class="section contact">
-            <h2>Contact</h2>
-            <p><strong>Email :</strong> <a href="mailto:youssefennagui2003@gmail.com">youssefennagui2003@gmail.com</a></p>
-            <!-- Vous pouvez ajouter votre LinkedIn ici -->
-            <!-- <p><strong>LinkedIn :</strong> <a href="URL_DE_VOTRE_PROFIL">Votre Nom</a></p> -->
-        </div>
+  <section id="home" class="home">
+    <div class="content">
+      <h2>Salut, je suis <span>Youssef Ennagui</span></h2>
+      <p>Développeur Full-Stack passionné par la technologie et l’innovation.</p>
+      <a href="#projects" class="btn">Voir mes projets</a>
     </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>À propos</h2>
+    <p>
+      Étudiant en Sciences Mathématiques et Informatiques à l’Université Sidi Mohammed Ben Abdellah.
+      Passionné par le développement web full-stack (React & Laravel) et les technologies modernes.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projets</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Plateforme d’apprentissage</h3>
+        <p>Application web développée en React et Laravel pour la gestion des cours en ligne.</p>
+      </div>
+      <div class="card">
+        <h3>Application Flutter</h3>
+        <p>App mobile éducative conçue pour faciliter l’apprentissage interactif.</p>
+      </div>
+      <div class="card">
+        <h3>Projet Cybersécurité</h3>
+        <p>Simulation d’un système sécurisé et détection d’intrusions en environnement réseau.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>React & Laravel</li>
+      <li>Flutter</li>
+      <li>JavaScript / PHP / C++</li>
+      <li>Cybersécurité</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:youssef.dev@example.com">youssef.dev@example.com</a></p>
+    <p>🔗 LinkedIn : <a href="#">linkedin.com/in/youssefennagui</a></p>
+    <p>💻 GitHub : <a href="#">github.com/youssefennagui</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Youssef Ennagui | Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
